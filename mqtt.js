@@ -71,7 +71,7 @@ function MQTTconnect() {
     document.getElementById("status_messages").innerHTML = 'connecting';
     var x = Math.floor(Math.random() * 10000);
     var cname = "orderform-" + x;
-    var brokerUrl = "ws://" + host + ":" + port + path;
+    var brokerUrl = "wss://" + host + ":" + port + path;
     mqtt = new Paho.MQTT.Client(brokerUrl, cname);
 
     var options = {
