@@ -23,10 +23,10 @@
         clientId = "client_" + Math.random().toString(36).substr(2, 9);
         console.log("clientId:", clientId);
 
-        // MQTT Broker Host and Port
+        // MQTT Broker Host and Port https://www.emqx.com/en/mqtt/public-mqtt5-broker
         var host = "broker.emqx.io";
         var port = 8084;
-        
+
         // MQTT Broker URL
         var brokerUrl = "wss://" + host + ":" + port + "/mqtt";
 
