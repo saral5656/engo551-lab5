@@ -1,0 +1,2 @@
+# Set MIME type for CSS files
+AddType text/css .css
