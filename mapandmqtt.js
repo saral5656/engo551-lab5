@@ -1,15 +1,14 @@
 
-import L from 'leaflet';
-    
     // Initialize Leaflet Map
     var map = L.map('map').setView([51.0447, -114.0719], 11);
-    var client;
-    var markers = [];
-
+    
     // Add OpenStreetMap Tile Layer to Map
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
+    
+    var client;
+    var markers = [];
 
     // MQTT Topic and Client ID
     var topic = 'ENGO551/SARA/MY_TEMPERATURE';
