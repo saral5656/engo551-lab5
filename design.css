@@ -6,25 +6,6 @@ body {
     font-family: Helvetica, sans-serif;
 }
         
-/* for smaller window*/
-@media all and (min-width:0px) and (max-width: 768px) {
-    #map {
-        height: 70vh; 
-        margin-bottom: 20px;
-    }
-}
-
-/* for larger window */
-@media all and (min-width:769px) {
-    #map {
-        display: flex;
-        justify-content: center;
-        width: 95%;
-        margin: 2.5% 2.5% 2.5% 2.5%;
-        height: 60vh; 
-    }
-}
-
 
 .button-container {
     display: flex;
