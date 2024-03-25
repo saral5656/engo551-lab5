@@ -1,12 +1,3 @@
-p,h1,h2,h3{
-    font-family: Helvetica, sans-serif;
-}
-        
-body {
-    font-family: Helvetica, sans-serif;
-}
-        
-
 .button-container {
     display: flex;
     justify-content: center;
