@@ -1,9 +1,10 @@
 
+import L from 'leaflet';
+    
     // Initialize Leaflet Map
     var map = L.map('map').setView([51.0447, -114.0719], 11);
     var client;
     var markers = [];
-    var reconnectTimeout = 3000; // 3 seconds delay before attempting to reconnect
 
     // Add OpenStreetMap Tile Layer to Map
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
