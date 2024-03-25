@@ -1,4 +1,6 @@
+
     // Initialize Leaflet Map
+    var L = window.L;
     var map = L.map('map').setView([51.0447, -114.0719], 11);
     var client;
     var markers = [];
